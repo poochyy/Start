@@ -1,0 +1,32 @@
+.feedback {
+  background-image: url(/img/feedback-background.png);
+  height: 369px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Roboto Slab";
+}
+
+.feedback-heading {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.feed-back-button {
+  margin-top: 53px;
+  color: #fff;
+  background: none;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  padding: 18px 27px;
+}
+
+.feed-back-button:hover {
+  background-color: white;
+  color: #c0301c;
+  transition: all 0.2s ease-in;
+}

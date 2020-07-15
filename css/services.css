@@ -1,0 +1,88 @@
+a {
+  color: #555555;
+}
+
+.secondary-heading {
+  color: #555555;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.heading-divider {
+  margin: 30px auto;
+  width: 50px;
+  height: 2px;
+  background-color: #555555;
+}
+
+.service-description {
+  color: #555555;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 70px;
+}
+
+.services-icon {
+  width: 90px;
+  height: 90px;
+  border: 2px solid #dddddd;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* .services-icon:hover {
+
+  transition: all 0.35s ease-out;
+} */
+.services-icon span {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  font-size: 48px;
+  color: #c0301c;
+}
+
+.services-icon span::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services-icon:hover,
+.services-icon span:hover {
+  background-color: #c0301c;
+  color: #fff;
+  transition: all 0.35s ease-out;
+}
+
+.services-col-heading {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+
+.services-col-description {
+  color: #555555;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.services-content {
+  text-align: center;
+  margin-bottom: 100px;
+}

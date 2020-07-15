@@ -1,0 +1,144 @@
+.works {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.works .secondary-heading {
+  margin-bottom: 70px;
+}
+
+.work-categories {
+  padding-left: 0;
+}
+
+button {
+  color: #555;
+}
+
+.work-categories button {
+  margin-right: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.work-categories button:last-child {
+  margin-right: 0;
+}
+
+
+.work-categories button:hover {
+  color: #c0301c;
+}
+
+.work-card-container {
+  height: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* align-content: space-between; */
+}
+
+.work-card {
+  position: relative;
+  display: inline-block;
+  width: 360px;
+  height: 320px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+}
+
+.work-card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.work-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 360px;
+  height: 320px;
+  background-color: #c0301c;
+  opacity: 0;
+}
+
+.work-card:hover::before {
+  opacity: 0.7;
+}
+
+.work-card:hover .work-card-info {
+  opacity: 1;
+}
+
+.work-card-info {
+  /* display: flex;
+  flex-direction: column; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+/* .work-card-info:hover {
+  opacity: 1;
+} */
+
+.work-card-info__profession {
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.work-card-info__description {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab";
+  font-size: 12px;
+  line-height: 2;
+  text-transform: capitalize;
+}
+
+.work-card-info__button {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  /* line-height: 24px; */
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: #fff;
+  padding: 14px 20px;
+}
+
+.work-card-info__button:hover {
+  background-color: #fff;
+  text-decoration: none;
+  color: #c0301c;
+
+}
+
+.work-card-info__button span {
+  /* line-height: 14px; */
+  margin-left: 4px;
+}
+
+/* .fa {} */
+
+.fa-angle-right {
+  font-size: 14px;
+}
+
+.mixitup-control-active {
+  color: #c0301c;
+  cursor: initial;
+}
